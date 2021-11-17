@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  xcoo:
+    image: xcoo
+    build:
+      context: .
+      dockerfile: ./Dockerfile
